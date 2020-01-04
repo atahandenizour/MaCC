@@ -31,7 +31,8 @@ change_mac_address(user_input.interface,user_input.mac_address)
 final_mac=control_new_mac(str(user_input.interface))
 
 if final_mac==user_input.mac_address:
-    print("Your new mac address :"+str(final_mac))
+    #print("Your new mac address :"+str(final_mac))
+    print(f"Your new mac address : {final_mac}")
     print("Done..")
 else:
     print("Error!")
